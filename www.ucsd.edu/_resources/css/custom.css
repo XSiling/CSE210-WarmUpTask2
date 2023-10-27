@@ -5111,6 +5111,7 @@ a.hero-no-button>img {
     font-family: BrixSansRegular;
 }
 
+.jumbotron-events-news .news .text-link-no-arrow,
 .jumbotron-events-news .event .text-link-no-arrow,
 .jumbotron-event-multiple .event .text-link-no-arrow {
     font-family: BrixSansBold, Helvetica, Arial, sans-serif;
@@ -5927,6 +5928,9 @@ section[data-module=text-and-image] {
         color: #fff;
     }
     .jumbotron-events-news .event .text-link-no-arrow {
+        font-size: 1.1em;
+    }
+    .jumbotron-events-news .news-content .text-link-no-arrow {
         font-size: 1.1em;
     }
     .jumbotron-excellence .thumbnail .thumbnail-heading {

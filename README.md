@@ -7,3 +7,4 @@ Each time edition: first fetch and pull from the main branch, then edit on your 
 
 ## Updates
 2023/10/24 - repo initialization
+2023/10/27 - jieyi - replace the remote css link to the local css link(index.html line) otherwise our modification on the resources will not perform, fix the problem of "accessbility - Heading elements are not in a sequentially-descending order"
