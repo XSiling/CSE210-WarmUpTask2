@@ -725,8 +725,8 @@ $(window).resize(checkWidth);
 
 $('.new-quote-slider').slick({
     dots: true,
-    prevArrow: '<a href="#" class="slick-prev" aria-label="Previous" tabindex="0"><i class="fa fa-angle-left"></i></a>',
-    nextArrow: '<a href="#" class="slick-next" aria-label="Next" tabindex="0"><i class="fa fa-angle-right"></i></a>',
+    prevArrow: '<li><a href="#" class="slick-prev" aria-label="Previous" tabindex="0"><i class="fa fa-angle-left"></i></a></li>',
+    nextArrow: '<li><a href="#" class="slick-next" aria-label="Next" tabindex="0"><i class="fa fa-angle-right"></i></a></li>',
     customPaging: function(slider, i) {
         return $('<span type="button" data-role="none" tabindex="0" />').text(i + 1);
     },
