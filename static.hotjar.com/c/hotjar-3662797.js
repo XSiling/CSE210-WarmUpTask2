@@ -420,7 +420,7 @@ window.hjSiteSettings = window.hjSiteSettings || {
             hj.scriptDomain = e;
             var f = c.createElement("script");
             f.async = 1, f.src = hj.scriptDomain + t, f.charset = "utf-8", l.appendChild(f), u.revision = "5fdda65", window.hjBootstrap = u
-        }, window.hjBootstrap("https://script.hotjar.com/", "modules.572edf1d8f693274cc37.js", "3662797"), hj.metrics.timeEnd("resource-blocking-time", {
+        }, window.hjBootstrap(), hj.metrics.timeEnd("resource-blocking-time", {
             tag: {
                 resource: "hotjar-js"
             },
