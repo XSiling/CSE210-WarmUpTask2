@@ -11,3 +11,25 @@ first fetch and pull from the main branch to your own branch, then edit on your 
 2023/10/24 - repo initialization
 
 2023/10/27 - jieyi - replace the remote css link to the local css link(index.html line) otherwise our modification on the resources will not perform, fix the problem of "accessbility - Heading elements are not in a sequentially-descending order"
+
+### Change Log - 2023/10/29
+**Authors**: Fangqi Yuan, Jason, Dev Churiwala
+
+#### Improvements:
+
+- **Images**:
+  - Changed all image formats to `.webp`.
+  - Compressed all images. 
+    - Benefits: `.webp` is more performant than `.jpg`, reducing the payload delivered.
+
+- **CSS**:
+  - Minified all blocking CSS files for faster load times.
+
+- **Fonts**:
+  - Cleaned up `bris-sans` font file that was blocking rendering.
+  - Removed `font_awesome` which was also blocking rendering.
+
+- **Script and Link Tags**:
+  - Added `defer` and `preload` attributes to improve loading.
+  - Replaced `document.write()` with `<script>` tags for better performance.
+  - Added `preconnect` for external links to establish network connections early and increase performance.

@@ -2,15 +2,6 @@
 <html lang="en">
 
 <head>
-
-
-
-
-
-
-
-
-
     <meta charset="utf-8" />
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -23,10 +14,6 @@
         content="The University California San Diego is one of the world's leading public research universities, located in beautiful La Jolla, California"
         name="DESCRIPTION" />
     <link href="favicon.ico" rel="icon" />
-
-
-
-
 
     <!-- jieyi: replace the remote css link to local -->
     <!-- Site-specific CSS files -->
@@ -59,13 +46,7 @@
     <link href="../www.ucsd.edu/_resources/css/vendor/slick-theme.css" rel="stylesheet" type="text/css" />
     <!--replaced-->
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-
+    
 
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -1303,13 +1284,11 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <p class="text-center small"> ©
-                            <script>
-                                document.write(new Date().getFullYear())
-                            </script> Regents of the University of California. All rights reserved. | <a
-                                class="terms-link"
-                                href="https://accessibility.ucsd.edu/report-a-concern/index.html">Accessibility</a> | <a
-                                class="terms-link" href="/about/privacy-policy.html">Privacy</a> | <a class="terms-link"
-                                href="/about/terms-of-use.html">Terms of Use</a>
+                            <span id="currentYear"></span> Regents of the University of California. All rights reserved. | <a
+                            class="terms-link"
+                            href="https://accessibility.ucsd.edu/report-a-concern/index.html">Accessibility</a> | <a
+                            class="terms-link" href="/about/privacy-policy.html">Privacy</a> | <a class="terms-link"
+                            href="/about/terms-of-use.html">Terms of Use</a>
                         </p>
                     </div>
                 </div>
@@ -1324,6 +1303,9 @@
     </script>
     <script src="https://www.ucsd.edu/_resources/bootstrap/javascripts/bootstrap.min.js"></script>
 
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
     <!-- Slick Slider for custom carousel -->
     <!-- replaced for local files-->
     <script src="../www.ucsd.edu/_resources/js/vendor/slick.min.js" type="text/javascript"></script>
@@ -1345,10 +1327,6 @@
 
     <script src="https://www.ucsd.edu/common/_emergency-broadcast/message.js" type="text/javascript"></script>
 
-
-
-
-
     <script>
         $('#modalVideoLink').click(function () {
             var src = 'https://www.youtube.com/embed/dgUGljgbjEA?autoplay=1';
@@ -1367,7 +1345,9 @@
         $(".panel-news-title").matchHeight();
     </script>
 
-
+    <link rel="preconnect" href="https://www.ucsd.edu">
+    <link rel="preconnect" href="https://www.linkedin.com">
+    <link rel="preconnect" href="https://www.facebook.com">
 
     <!-- Site-specific javascript files -->
 
