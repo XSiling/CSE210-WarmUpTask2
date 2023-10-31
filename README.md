@@ -57,5 +57,5 @@ For this repo's main branch, you can check the Netlify at https://capable-bienen
 - **Navigation**:
   - Change the heading elements' tags to make them in descending orders.
 
-![Lighthouse Performance](./performance_img/performance.png)
+![New Lighthouse Performance](https://github.com/XSiling/CSE210-WarmUpTask2/assets/48192134/4b7f2fc8-e139-47be-9b36-c13032c4126e)
 
