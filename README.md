@@ -11,9 +11,6 @@ first fetch and pull from the main branch to your own branch, then edit on your 
 For this repo's main branch, you can check the Netlify at https://capable-bienenstitch-3a6abf.netlify.app/ucsd.edu/.
 
 ## Updates
-2023/10/24 - repo initialization
-
-2023/10/27 - jieyi - replace the remote css link to the local css link(index.html line) otherwise our modification on the resources will not perform, fix the problem of "accessbility - Heading elements are not in a sequentially-descending order"
 
 ### Change Log on Performance- 2023/10/29
 **Authors**: Fangqi Yuan, Jason, Dev Churiwala
