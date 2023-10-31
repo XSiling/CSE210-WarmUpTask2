@@ -21,6 +21,9 @@ For this repo's main branch, you can check the Netlify at https://capable-bienen
   - Changed all image formats to `.webp`.
   - Compressed all images. 
     - Benefits: `.webp` is more performant than `.jpg`, reducing the payload delivered.
+  - Reduced some image sizes to more "realistic" numbers.
+    - Some images were way too large for the screen space they would be realistically representing.
+    - Using the picture tag would have messed up image style, so an overall resizing was done.
 
 - **CSS**:
   - Minified all blocking CSS files for faster load times.
