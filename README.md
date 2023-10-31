@@ -7,6 +7,9 @@ Each time edition:
 
 first fetch and pull from the main branch to your own branch, then edit on your own branch, then push to your own branch, then merge to the main branch. Write some comments or write notes in this file to make others understand.
 
+## Netlify
+For this repo's main branch, you can check the Netlify at https://capable-bienenstitch-3a6abf.netlify.app/ucsd.edu/.
+
 ## Updates
 2023/10/24 - repo initialization
 
@@ -33,3 +36,5 @@ first fetch and pull from the main branch to your own branch, then edit on your 
   - Added `defer` and `preload` attributes to improve loading.
   - Replaced `document.write()` with `<script>` tags for better performance.
   - Added `preconnect` for external links to establish network connections early and increase performance.
+=======
+
