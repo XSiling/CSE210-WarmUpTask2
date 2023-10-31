@@ -36,5 +36,9 @@ For this repo's main branch, you can check the Netlify at https://capable-bienen
   - Added `defer` and `preload` attributes to improve loading.
   - Replaced `document.write()` with `<script>` tags for better performance.
   - Added `preconnect` for external links to establish network connections early and increase performance.
-=======
+
+- **Deleted Items**:
+  - Removed unnecessary and non-performant scripts from the HTML.
+
+![Lighthouse Performance](./performance_img/performance.png)
 
