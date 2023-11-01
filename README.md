@@ -8,7 +8,7 @@ Each time edition:
 first fetch and pull from the main branch to your own branch, then edit on your own branch, then push to your own branch, then merge to the main branch. Write some comments or write notes in this file to make others understand.
 
 ## Netlify
-For this repo's main branch, you can check the Netlify at https://capable-bienenstitch-3a6abf.netlify.app/ucsd.edu/.
+For this repo's main branch, you can check the Netlify at [https://capable-bienenstitch-3a6abf.netlify.app/src/ucsd.edu/](https://capable-bienenstitch-3a6abf.netlify.app/src/ucsd.edu/).
 
 ## Updates
 
